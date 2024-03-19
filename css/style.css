@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightblue;
+    ;
+}
+.box
+{
+    width: 50%;
+    min-height: 200px;
+    border: 8px solid #000;
+    margin: 80px auto;
+    background-color: #fff;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 20%;
+    border-left: 0;
+    border-right: 0;
+    border-top-color: orange;
+    border-bottom-color: green;
+    
+}
+/* a:hover
+        {
+          border: 2px solid white;
+          border-radius: 20px;
+          border-top-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+          border-left: 0px;
+          border-right: 0px;   
+        border-bottom-color: orange; 
+    border-top-color: orange;    } */
+
+.heading{
+
+    width: 100%;
+    min-height: 60px;
+}
+.heading h2{
+
+    text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.form-data
+{
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 20px;
+    
+}
+table
+{
+    margin-left: 50px;
+}
+table tr td{
+    padding: 5px;
+    
+}
+label{
+
+    font-family: "Merriweather", serif;
+    font-weight: 200;
+
+}
+input[type=text]{
+    padding: 5px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
+input[type=email]
+{
+    padding: 5px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
+input[type=password]
+{
+    padding: 5px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+}
+input[type=submit]{
+    padding: 10px;
+    width: 300px;
+    font-family: "Merriweather", serif;
+    font-weight: 800;
+    background-color:  #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+input[type=submit]:hover{
+
+    background-color: #ff0084;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    color: white;
+}
+a:hover
+        {
+          border: 2px solid white;
+          border-radius: 20px;
+          border-top-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+          border-left: 0px;
+          border-right: 0px;   
+        border-bottom-color: red; 
+    border-top-color: red;    }
