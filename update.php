@@ -53,6 +53,10 @@ $result = mysqli_fetch_assoc($data);
                     <td> <label for="cpass">Enter Confirm Password</label></td>
                     <td><input type="password" value="<?php echo $result['cpass'] ?>" name="cpass" id="cpass" autocomplete="off" required></td>
                 </tr>
+                <tr>
+                    <td> <label for="photo">Upload photo</label></td>
+                    <td><input type="file" name="uploadfile" required></td>
+                </tr>
 
                 <tr>
                     <td></td>
@@ -70,7 +74,10 @@ $result = mysqli_fetch_assoc($data);
 
 if($_POST['update'])
 {
-
+    $filename = $_FILES["uploadfile"]["name"];
+    $tempname = $_FILES["uploadfile"]["tmp_name"];
+    $folder = "photo/".$filename;
+    move_uploaded_file($tempname,$folder);
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
     $email = $_POST['email'];

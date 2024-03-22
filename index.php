@@ -16,6 +16,7 @@ include("connection.php");
     <div class="menu" style="background-color: black; width: 60%; min-height: 50px;  padding:15px">
         <a href="" style="color: white; padding:10px; font-family: Arial, Helvetica, sans-serif; text-decoration: none;">Register Form</a> 
         <a href="display.php" style="color: white; padding:10px; font-family: Arial, Helvetica, sans-serif; text-decoration: none;">Display Data</a>
+        <a href="pagination.php" style="color: white; padding:10px; font-family: Arial, Helvetica, sans-serif; text-decoration: none;">Pagination</a>
     </div>
         <div class="heading">
             <h2>Registration FORM</h2>
